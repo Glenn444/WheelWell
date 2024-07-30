@@ -26,7 +26,7 @@ const RootLayout = () => {
       setTimeout(() => {
         // write your functions    
         SplashScreen.hideAsync()
-     },3000);
+     },5000);
      
     };
   }, [fontsLoaded, error]);
