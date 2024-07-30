@@ -1,0 +1,24 @@
+{
+  "cli": {
+    "version": ">= 10.2.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_CLOUDINARY_CLOUD_NAME": "dqxkhyewi",
+        "EXPO_PUBLIC_BACKEND_URL": "https://chatappbackend-production-3f67.up.railway.app"
+      }
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}

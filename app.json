@@ -1,36 +1,48 @@
 {
   "expo": {
-    "name": "wheelwell",
-    "slug": "wheelwell",
+    "name": "WheelWell",
+    "slug": "WheelWell",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/wheel.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#161622"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.glennmakhandia.wheelwell"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-router"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "eas": {
+      "projectId": "2d91cfc2-fd31-4899-a512-156915ebaf8c"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "91dbb73f-af2b-44c1-92cc-9b6c319d63b5"
+      }
     }
   }
 }
