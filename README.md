@@ -5,7 +5,7 @@
 
 - Backend hosted on railway and appwrite for auth
 - Forgot Password using resend for email verification.
-
+- Chat is written with nodejs, express using socketio
 
 ## Upcoming feature implementations:
 - Push notification
